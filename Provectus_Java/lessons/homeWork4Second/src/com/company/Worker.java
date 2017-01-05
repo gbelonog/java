@@ -9,15 +9,15 @@ public abstract class Worker {
     int age;
 
     Worker(){
-        this.firstName = "Ivan";
-        this.lastName = "Ivanov";
-        this.age = 20;
+        this.firstName = "N/A";
+        this.lastName = "N/A";
+        this.age = 0;
     }
 
     Worker(String firstName, String lastName, int age){
         this.firstName = firstName;
         this.lastName = lastName;
-        this.age = 20;
+        this.age = age;
     }
     abstract void work();
 

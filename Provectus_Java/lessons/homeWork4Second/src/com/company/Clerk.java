@@ -9,7 +9,7 @@ public class Clerk extends Worker{
 
     Clerk(){
         super();
-        this.officeName = "UK";
+        this.officeName = "N/A";
     }
 
     Clerk(String firstName, String lastName, int age, String officeName){
@@ -19,7 +19,7 @@ public class Clerk extends Worker{
 
     @Override
     void work() {
-        System.out.println("I'm clerk "+ super.firstName + " " + super.lastName);
-        System.out.println("I work in office " + officeName);
+        System.out.println("I'm clerk "+ super.firstName + " " + super.lastName + ".");
+        System.out.println("I work in office " + officeName + ".");
     }
 }
