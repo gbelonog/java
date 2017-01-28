@@ -4,7 +4,8 @@ package com.company;
  * Created by galina on 25.01.17.
  */
 public class User {
-    String name;
+
+    private String name;
 
     public void setName(String name) {
         this.name = name;

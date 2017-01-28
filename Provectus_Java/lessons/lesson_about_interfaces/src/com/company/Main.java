@@ -9,7 +9,6 @@ public class Main {
 
         User user = new User("alex");
         UserValidator userValidator = new UserValidator();
-
         UserValidator.validate(user, new ErrorHandler(){
             @Override
             public void error(String message){
